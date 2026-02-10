@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "<h1>AWS CI/CD Pipeline Success!</h1><p>The code was deployed automatically.</p>";
+        return "Hello from the Automated Pipeline! V2 is live!";
     }
 }
